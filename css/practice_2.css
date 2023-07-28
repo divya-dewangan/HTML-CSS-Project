@@ -1,0 +1,45 @@
+#contenar{
+    border: 1px solid black;
+    width: 1000px;
+    background: white;
+}
+body{
+    font-family: Arial, Helvetica,;
+    background: wheat;
+    margin: 0;
+    padding: 0;
+}
+#hearder{
+    background: crimson;
+    height: 100px;
+}
+#manu {
+    background: lightblue;
+}
+#manu li {
+    display:inline-block;
+}
+#manu li a {
+    display:block;
+    padding: 10px 15px;
+}
+#content{
+    width: 800px;
+    float: left;
+    min-height: 500px;
+}
+#sideber {
+    background:lightgreen;
+    width: 200px;
+    float: right;
+    min-height: 500px;
+}
+#footer{
+    background: lightsalmon;
+    clear: both;
+    padding: 5px 10px;
+    text-align: right;
+}
+h1{
+    background: rgb(167, 33, 33);
+}g

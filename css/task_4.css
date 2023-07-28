@@ -1,0 +1,139 @@
+.body {
+   
+    /* background-image: url(../images/sinary.jpg); */
+  }
+ 
+  
+  
+  
+  
+.main-div{
+    border: none;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    padding: 40px;
+    background-image: url(../images/sinary.jpg);
+    /* filter: blur(3px); */
+    display: flex;
+    justify-content: center ;
+    z-index: 1;
+    background-repeat: no-repeat;
+    
+
+    
+    
+}
+.frist_div{
+    border:none;
+    height: 450px;
+    width: 20%;
+    text-align: center;
+    background-color:black;
+    color: white;
+    
+    
+}
+.second_div{ 
+    border: 2px solid;
+    width: 50%;
+    height: 450px;
+    float: right;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   float: right;
+   
+} 
+.SUMMER{
+    color: rgb(185, 8, 8);
+    font-size: 36px;
+    margin-bottom: 0%;
+    
+}
+.sale{
+    color: rgb(185, 8, 8);
+    font-size: 400%;
+    margin:0%;
+    top: 20%;
+}
+.save{
+    color: rgb(16, 155, 155);
+    letter-spacing: 7px;
+    margin-top: 50px;
+}
+.off{
+    font-size: 500%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+}
+.under-row{
+    color: rgb(168, 155, 155);
+}
+hr{
+    color: gray;
+    font-size: 2px;
+}
+.row-1{
+    width: 60%;
+
+}
+.row-2{
+    width: 60%;
+}
+.sub{
+    font-size: 30%;
+}
+.super{
+    font-size: 60%;
+}
+.enter-email{
+    color: black;
+}
+.where-send{
+    color: rgb(111, 202, 111);
+    font-size: 150%;
+    margin: 0;
+}
+.thanks{
+    color: black;
+}
+.input{
+    padding: 13px;
+    width: 57vh;
+    background-color: rgb(241, 233, 217);
+    border: none;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+
+   
+}
+.button{
+    background-color: rgb(202, 5, 5);
+    border: none;
+    padding: 13px;
+    width: 60%;
+    margin: 0;
+    cursor: pointer;
+}
+.thanks{
+     text-align: center;
+     text-decoration: underline;
+     margin-top: 20px;
+     cursor: pointer;
+    
+}
+.last-piraghraph{
+    color:gray;
+    text-align: center;
+    
+}
+.direction{
+    display: flex;
+    flex-direction: column;
+}

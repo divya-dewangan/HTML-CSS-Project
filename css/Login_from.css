@@ -1,0 +1,80 @@
+:root{
+    --main-color:white;
+}
+.main-div{
+    border: 1px solid black;
+    height: 400px;
+    width: 500px;
+    font-size: 12px;
+    background:linear-gradient(to left,#52BE80,#0B5345);
+    top: 100px;
+    left: 50px;
+    padding: 20px;
+    
+}
+.box2{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    background:linear-gradient(to left,#023b2f,#07705b);
+}
+.main-heading{
+    display: flex;
+    justify-content: center;
+   
+}
+.fieldset{
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+.button{
+    width: 400px;
+    background: black;
+    color:var(--main-color);
+    padding: 10px;
+}
+.Forgot-password{
+    float: right;
+}
+.ancer{
+    float: left;
+}
+.pairagraph{  
+    display: flex;
+    justify-content: center;
+    color:rgb(196, 156, 156)
+}
+.sb-heading{
+    display: flex;
+    justify-content: center;
+}
+.not-member{
+    display: flex;
+    justify-content: center;
+    color:var(--main-color);
+}
+.user-lable{
+    display: block;
+    color:var(--main-color);
+}
+.sb-heading {
+    color:var(--main-color);
+}  
+.password-lable{
+    display: block;
+    color:var(--main-color);
+}
+.user-input{
+    width: 400px;
+    padding: 2px;
+}
+.password-input{
+    width: 400px;
+    padding: 2px;
+}
+.main-heading{
+    color:var(--main-color);
+}
+.remamber-me{
+    color:var(--main-color);
+}

@@ -1,0 +1,46 @@
+#box{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    background: pink;
+    /* position: relative;
+    left: 20px;
+    top: 20px; */
+    /* position:absolute;
+    top:10px; */
+    /* position: fixed;
+    left: 20px;
+    top: 20px; */
+    position: sticky;
+    left: 50px;
+    top: 50px;
+    
+}
+div{
+    width: 200px;
+    height:200px;
+    position: absolute;
+    border: 2px solid black;
+    font-size: 25px;
+}
+#box1{
+    background: goldenrod;
+    top: 100px;
+    left: 50px;
+}
+#box2{
+    background: lightcyan;
+    top: 150px;
+    left: 100px;
+    
+}
+#box3{
+    background: lightcoral;
+    top: 200px;
+    left: 150px;
+}
+#box4{
+    background: darkcyan;
+    top: 250px;
+    left: 200px;
+}

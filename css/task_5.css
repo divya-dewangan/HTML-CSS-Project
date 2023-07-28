@@ -1,0 +1,95 @@
+body{
+    padding: 10% ;
+}
+div{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  
+}
+
+body{
+    background-image: url(../images/sinary.jpg);
+    background-size: cover;
+}
+.first-main-div{
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    text-align: center;
+    font-size: 23px;
+
+}
+.second-main-div{
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    width: 50%;text-align: center;
+    font-size: 23px;
+}
+.first-div{
+    border: none;
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    background-image: url(../css/icons/user.png);
+    background-size: contain;
+    /* background-image: url(../images/mister.jpg); */
+    
+}
+.second-div{
+    border: none;
+    height: 120px;
+    width: 120px;
+    background-color: white;
+}
+.theird-div{
+    border: none;
+    height: 120px;
+    width: 120px;
+    background-color: lightseagreen;
+    text-align: center;
+}
+.fourth-div{
+    border:none;
+    height: 120px;
+    width: 120px;
+    background-color: darkblue;
+}
+.div-first{
+    border: none;
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    
+}
+.div-second{
+    border: none;
+    height: 120px;
+    width: 120px;
+    background-color: lightskyblue;
+}
+.div-theird{
+    border: none;
+    height: 120px;
+    width: 120px;
+    background-color: transparent;
+}
+.div-fourth{
+    border: none;
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    background-image: url(../css/icons/padlock.png);
+    background-size: contain;
+}
+.first-div .second-div .theird-div .fourth-div .div-first .div-second .div-theird .div-fourth:hover{
+    background-color: brown;
+}
+
+
+
+

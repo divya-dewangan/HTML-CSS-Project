@@ -1,0 +1,32 @@
+:root{
+    --colorChangeValue: yellow;
+    --colorValue: blue;
+    --greenColor: green;
+    --pinkColor: pink;
+    --redColor: red;
+}
+
+
+/* img{
+    float: left;
+    clip-path:circle(45% at 30% 50%);
+    shape-outside:circle(45% at 30% 50%);
+    shape-margin: 20px;
+     
+} */
+img{
+    filter:blur(5px);
+}
+
+
+
+/* .first{
+    background: var(--colorChangeValue);
+}
+.second{
+    background: var(--colorChangeValue);
+}
+.third{
+    background:var(--colorChangeValue);
+    color: var(--colorValue);
+} */
